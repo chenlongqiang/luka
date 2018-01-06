@@ -1,0 +1,306 @@
+/*
++------------------------------------------------
+| 共通スタイル
++------------------------------------------------*/
+
+
+
+ 
+table
+{
+	border-collapse : collapse				;
+}
+
+table, td, th
+{
+	border			: 1px solid #d0d0e0		;
+}
+
+table caption, h2
+{
+	font			: 17pt 'MS UI Gothic'	;
+	color			: #1b7eb6				;
+	padding			: 5px					;
+	margin			: 0px					;
+	text-align		: left					;
+}
+
+table th
+{
+	background-color: #e0e0ff				;
+	color			: #1b7eb6				;
+	font-weight		: normal				;
+}
+
+.transparentTable
+{
+	border-style	: none !important		;
+}
+.transparentTable > tbody > tr > td
+{
+	border-style	: none !important		;
+	background-color: Transparent			;
+}
+
+
+input[ type = 'text'	],
+input[ type = 'password'],
+input[ type = 'number'	],
+textarea
+{
+	font-family		: Tahoma				;
+	border			: 1px solid #aed0ea		;
+	background-color: #f0f0ff				;
+}
+
+table.formTable td,
+table.formTable th
+{
+	padding		: 5px	;
+}
+
+#dataTableContainer td,
+#dataTableContainer th
+{
+	padding		: 5px	;
+}
+
+#dataTable tr.selected
+{
+	background-color	: #ffe0e0	;
+	color				: #800000	;
+}
+
+button#regist
+{
+	width				: 80px		;
+	height				: 30px		;
+}
+
+/*
++------------------------------------------------
+| マスタページスタイル
++------------------------------------------------*/
+
+body
+{
+	font: 14px/1.6 "ＭＳ Ｐゴシック", Osaka, "ヒラギノ角ゴ Pro W3", sans-serif;
+	width				: 1030px				;
+	margin				: 10px auto				;
+	border				: 1px solid #c0c0c0		;
+	font-size			: 9pt					;
+	border-radius		: 4px					;
+}
+
+header,
+nav,
+section,
+footer
+{
+	display				: block					;	/* IE対策 */
+	margin				: 5px					;
+}
+
+header
+{
+	border-bottom		: 1px dotted #c0c0c0	;
+}
+
+header h1
+{
+	margin				: 5px					;
+	font				: 18pt "MS UI Gothic"	;
+	color				: #1b7eb6				;
+}
+
+footer
+{
+	text-align			: center				;
+	padding				: 15px					;
+	border-top			: 1px dotted #c0c0c0	;
+	color				: #808080				;
+}
+
+nav.gadget
+{
+	width				: 200px					;
+	border				: 1px dotted #c0c0c0	;
+	border-radius		: 4px					;
+}
+
+nav.gadget > div.title
+{
+	background-color	: #e0e0e0				;
+	border-radius		: 4px 4px 0px 0px		;
+}
+
+nav.gadget div.menu
+{
+	margin				: 5px					;
+	padding				: 5px					;
+	border				: 1px solid #e0e0e0		;
+	border-radius		: 4px					;
+}
+
+
+div.contentsContainer
+{
+	width				: 800px					;
+	height				: 720px					;
+	border				: 1px dotted #c0c0c0	;
+	border-radius		: 4px					;
+}
+
+div.contentsContainer > div.title
+{
+	background-color	: #e0e0e0				;
+	border-radius		: 4px 4px 0px 0px		;
+}
+
+#loading
+{
+	width				: 100%					;
+	height				: 100%					;
+	background-color	: white					;
+	position			: absolute				;
+	top					: 0px					;
+	left				: 0px					;
+	text-align			: center				;
+}
+
+/*
++------------------------------------------------
+| ログイン画面の枠
++------------------------------------------------*/
+table.frame
+{
+	border-style	: none !important		;
+}
+table.frame td
+{
+	border-style	: none !important		;
+}
+table.frame .lt	{ background : url( "./frame/lt.gif" )	no-repeat	; width		: 8px	; height : 8px	; }
+table.frame .rt	{ background : url( "./frame/rt.gif" )	no-repeat	; width		: 8px	; }
+table.frame .lb	{ background : url( "./frame/lb.gif" )	no-repeat	; height	: 10px	; }
+table.frame .rb	{ background : url( "./frame/rb.gif" )	no-repeat	; }
+table.frame .l	{ background : url( "./frame/l.gif"  )	repeat-y	; }
+table.frame .r	{ background : url( "./frame/r.gif"  )	repeat-y	; }
+table.frame .t	{ background : url( "./frame/t.gif"  )	repeat-x	; }
+table.frame .b	{ background : url( "./frame/b.gif"  )	repeat-x	; }
+
+/*
++------------------------------------------------
+| トップメニュー
++------------------------------------------------*/
+#topMenu > li
+{
+	display			: block		;
+}
+
+/*
++------------------------------------------------
+| jQueryUi.TS.hierarchySelect
++------------------------------------------------*/
+.ui-TS-hierarchySelect ul,
+.ui-TS-multipleSelect ul
+{
+	padding-left	: 10px	;
+}
+
+.ui-TS-hierarchySelect ul li,
+.ui-TS-multipleSelect  ul li
+{
+	display			: block		;
+	padding			: 3px		;
+	cursor			: pointer	;
+	color			: #2779aa	;
+}
+
+.ui-TS-hierarchySelect ul li img,
+.ui-TS-multipleSelect  ul li img
+{
+	vertical-align	: middle	;
+}
+
+/*
++------------------------------------------------
+| 共通クラス
++------------------------------------------------*/
+
+/* 文字列スタイル */
+.bold			{ font-weight		: bold				; }
+.small			{ font-size			: x-small			; }
+.large			{ font-size			: large				; }
+.size6pt		{ font-size			: 6pt !important	; }
+.size7pt		{ font-size			: 7pt !important	; }
+.size8pt		{ font-size			: 8pt !important	; }
+.size9pt		{ font-size			: 9pt !important	; }
+.gray			{ color				: #808080 !important; }
+.red			{ color				: #ff0000 !important; }
+.blue			{ color				: #2779aa			; }
+.underline		{ text-decoration	: underline			; }
+.nowrap			{ white-space		: nowrap			; }
+.jp				{ font-family		: メイリオ, ＭＳ Ｐゴシック, Osaka; }
+/* 配置 */
+.left			{ text-align		: left				; }
+.center			{ text-align		: center			; }
+.right			{ text-align		: right				; }
+.top			{ vertical-align	: top				; }
+.middle			{ vertical-align	: middle			; }
+.bottom			{ vertical-align	: bottom			; }
+.floatLeft		{ float				: left				; }
+.floatRight		{ float				: right				; }
+.clearLeft		{ clear				: left				; }
+.clearRight		{ clear				: right				; }
+.clearBoth		{ clear				: both				; }
+/* サイズ */
+.width100		{ width				: 100%				; }
+/* マージン・パディング */
+.padding0		{ padding			: 0		!important	; }
+.padding2		{ padding			: 2px	!important	; }
+.padding3		{ padding			: 3px	!important	; }
+.padding5		{ padding			: 5px	!important	; }
+.padding5a		{ padding-top		: 5px	!important	; 
+				  padding-bottom	: 5px	!important	; 
+				  padding-left		: 5px	!important	; 
+				  padding-right		: 7px	!important	; }
+.padding5h		{ padding-left		: 5px	!important	; 
+				  padding-right		: 5px	!important	; }
+.padding10		{ padding			: 10px	!important	; }
+.padding10l		{ padding-left		: 10px	!important	; }
+.margin1		{ margin			: 1px	!important	; }
+.margin5		{ margin			: 5px	!important	; }
+.margin5v		{ margin-top		: 5px	!important	;
+				  margin-bottom		: 5px	!important	; }
+.margin5h		{ margin-left		: 5px	!important	;
+				  margin-right		: 5px	!important	; }
+.margin5l		{ margin-left		: 5px	!important	; }
+.margin5r		{ margin-right		: 5px	!important	; }
+.margin5t		{ margin-top		: 5px	!important	; }
+.margin5b		{ margin-bottom		: 5px	!important	; }
+.margin10		{ margin			: 10px	!important	; }
+.margin10v		{ margin-top		: 10px	!important	;
+				  margin-bottom		: 10px	!important	; }
+.margin10l		{ margin-left		: 10px	!important	; }
+.margin20		{ margin			: 20px	!important	; }
+/* ボーダー */
+.no_border		{ border-style		: none	!important	; }
+.radius			{ border-radius		: 4px				; }
+.border			{ border			: 1px solid #d0d0e0	; }
+.borderShadow	{ box-shadow		: 0px 0px 10px #808080	; }
+/* 表示 */
+.pointer		{ cursor			: pointer			; }
+.absolute		{ position			: absolute			; }
+.hidden			{ display			: none				; }
+.hidden2		{ visibility		: hidden			; }
+/* IMEコントロール */
+.ime_disabled	{ ime-mode			: disabled			; }
+/* エラー */
+.error			{ color				: Red				; }
+/* 背景色 */
+.header1		{ background-color	: #eaeaff !important; }
+.grayCell		{ background-color	: #f8f0f0 !important; }
+.grayCell2		{ background-color	: #d0d0e0 !important; }	/* ボーダー色 */
+.oddRow			{ background-color	: #fff5f5			; } /* 偶数行 */
+.hover			{ background-color	: #e0e0e0			; }

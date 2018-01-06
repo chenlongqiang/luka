@@ -1,0 +1,8 @@
+php_value display_errors		On
+
+php_value mbstring.language		Japanese
+php_value default_charset		UTF-8
+php_value mbstring.http_inpu	auto
+php_value mbstring.internal_encoding	UTF-8
+php_value mbstring.http_output	UTF-8
+php_flag  mbstring.encoding_translation On
