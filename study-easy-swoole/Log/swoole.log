@@ -1,0 +1,235 @@
+[2018-03-06 14:58:09 #31102.0]	NOTICE	Server is shutdown now.
+[2018-03-06 15:21:00 $31248.0]	NOTICE	Server is reloading now.
+[2018-03-06 15:26:19 #31246.0]	NOTICE	Server is shutdown now.
+[2018-03-06 15:32:40 $31423.0]	NOTICE	Server is reloading now.
+[2018-03-06 15:32:49 *31455.3]	ERROR	swFactoryProcess_finish (ERROR 1004): send 161 byte failed, because connection[fd=2] is closed.
+[2018-03-06 15:32:49 *31455.3]	ERROR	swFactoryProcess_finish (ERROR 1004): send 152 byte failed, because connection[fd=2] is closed.
+[2018-03-06 15:32:51 $31423.0]	NOTICE	Server is reloading now.
+[2018-03-06 16:48:37 $31423.0]	NOTICE	Server is reloading now.
+[2018-03-06 16:48:54 $31423.0]	NOTICE	Server is reloading now.
+[2018-03-06 16:50:20 $31423.0]	NOTICE	Server is reloading now.
+111111111111[2018-03-06 16:50:51 $31423.0]	NOTICE	Server is reloading now.
+[2018-03-09 10:46:53 $31423.0]	NOTICE	Server is reloading now.
+[2018-03-09 10:47:25 $31423.0]	NOTICE	Server is reloading now.
+[2018-03-09 10:48:03 $31423.0]	NOTICE	Server is reloading now.
+[2018-03-09 10:48:21 $31423.0]	NOTICE	Server is reloading now.
+[2018-03-09 10:48:38 $31423.0]	NOTICE	Server is reloading now.
+[2018-03-09 10:50:25 #31421.0]	NOTICE	Server is shutdown now.
+[2018-03-09 10:50:46 $26542.0]	NOTICE	Server is reloading now.
+/var/www/luka/study-easy-swoole/Application/ExceptionHandler.php:12:
+int(123123213)
+/var/www/luka/study-easy-swoole/Application/ExceptionHandler.php:12:
+int(123123213)
+/var/www/luka/study-easy-swoole/Application/ExceptionHandler.php:12:
+int(123123213)
+[2018-03-09 10:51:14 $26542.0]	NOTICE	Server is reloading now.
+/var/www/luka/study-easy-swoole/Application/ExceptionHandler.php:13:
+class Error#45 (8) {
+  protected $message =>
+  string(38) "Class 'App\HttpController\B' not found"
+  private $string =>
+  string(0) ""
+  protected $code =>
+  int(0)
+  protected $file =>
+  string(68) "/var/www/luka/study-easy-swoole/Application/HttpController/Hello.php"
+  protected $line =>
+  int(11)
+  private $trace =>
+  array(7) {
+    [0] =>
+    array(6) {
+      'file' =>
+      string(107) "/var/www/luka/study-easy-swoole/vendor/easyswoole/easyswoole/src/Core/Http/AbstractInterface/Controller.php"
+      'line' =>
+      int(77)
+      'function' =>
+      string(5) "index"
+      'class' =>
+      string(24) "App\HttpController\Hello"
+      'type' =>
+      string(2) "->"
+      'args' =>
+      array(0) {
+        ...
+      }
+    }
+    [1] =>
+    array(6) {
+      'file' =>
+      string(107) "/var/www/luka/study-easy-swoole/vendor/easyswoole/easyswoole/src/Core/Http/AbstractInterface/Controller.php"
+      'line' =>
+      int(35)
+      'function' =>
+      string(6) "__hook"
+      'class' =>
+      string(49) "EasySwoole\Core\Http\AbstractInterface\Controller"
+      'type' =>
+      string(2) "->"
+      'args' =>
+      array(1) {
+        ...
+      }
+    }
+    [2] =>
+    array(6) {
+      'file' =>
+      string(89) "/var/www/luka/study-easy-swoole/vendor/easyswoole/easyswoole/src/Core/Http/Dispatcher.php"
+      'line' =>
+      int(126)
+      'function' =>
+      string(11) "__construct"
+      'class' =>
+      string(49) "EasySwoole\Core\Http\AbstractInterface\Controller"
+      'type' =>
+      string(2) "->"
+      'args' =>
+      array(3) {
+        ...
+      }
+    }
+    [3] =>
+    array(6) {
+      'file' =>
+      string(89) "/var/www/luka/study-easy-swoole/vendor/easyswoole/easyswoole/src/Core/Http/Dispatcher.php"
+      'line' =>
+      int(46)
+      'function' =>
+      string(17) "controllerHandler"
+      'class' =>
+      string(31) "EasySwoole\Core\Http\Dispatcher"
+      'type' =>
+      string(2) "->"
+      'args' =>
+      array(2) {
+        ...
+      }
+    }
+    [4] =>
+    array(6) {
+      'file' =>
+      string(94) "/var/www/luka/study-easy-swoole/vendor/easyswoole/easyswoole/src/Core/Swoole/EventRegister.php"
+      'line' =>
+      int(90)
+      'function' =>
+      string(8) "dispatch"
+      'class' =>
+      string(31) "EasySwoole\Core\Http\Dispatcher"
+      'type' =>
+      string(2) "->"
+      'args' =>
+      array(2) {
+        ...
+      }
+    }
+    [5] =>
+    array(4) {
+      'function' =>
+      string(32) "EasySwoole\Core\Swoole\{closure}"
+      'class' =>
+      string(36) "EasySwoole\Core\Swoole\EventRegister"
+      'type' =>
+      string(2) "->"
+      'args' =>
+      array(2) {
+        ...
+      }
+    }
+    [6] =>
+    array(4) {
+      'file' =>
+      string(94) "/var/www/luka/study-easy-swoole/vendor/easyswoole/easyswoole/src/Core/Swoole/ServerManager.php"
+      'line' =>
+      int(149)
+      'function' =>
+      string(20) "call_user_func_array"
+      'args' =>
+      array(2) {
+        ...
+      }
+    }
+  }
+  private $previous =>
+  NULL
+  public $xdebug_message =>
+  string(2614) "
+Error: Class 'App\HttpController\B' not found in /var/www/luka/study-easy-swoole/Application/HttpController/Hello.php on line 11
+
+Call Stack:
+    0.0004     349952   1. {main}() /var/www/luka/study-easy-swoole/easyswoole:0
+    0.0038     423600   2. require('/var/www/luka/study-easy-swoole/vendor/easyswoole/easyswoole/bin/easyswoole') /var/www/luka/study-easy-swoole/easyswoole:2
+    0.0257     545752   3. commandHandler() /var/www/luka/study-easy-swoole/vendor/easyswoole/easyswoole/bin/easyswoole:429
+    0"...
+}
+[2018-03-09 10:51:38 $26542.0]	NOTICE	Server is reloading now.
+PHP Fatal error:  Uncaught Error: Call to undefined method App\ExceptionHandler::writeJson() in /var/www/luka/study-easy-swoole/Application/ExceptionHandler.php:13
+Stack trace:
+#0 /var/www/luka/study-easy-swoole/vendor/easyswoole/easyswoole/src/Core/Swoole/EventRegister.php(95): App\ExceptionHandler->handle(Object(Error), Object(EasySwoole\Core\Http\Request), Object(EasySwoole\Core\Http\Response))
+#1 [internal function]: EasySwoole\Core\Swoole\EventRegister->EasySwoole\Core\Swoole\{closure}(Object(Swoole\Http\Request), Object(Swoole\Http\Response))
+#2 /var/www/luka/study-easy-swoole/vendor/easyswoole/easyswoole/src/Core/Swoole/ServerManager.php(149): call_user_func_array(Object(Closure), Array)
+#3 {main}
+  thrown in /var/www/luka/study-easy-swoole/Application/ExceptionHandler.php on line 13
+PHP Stack trace:
+PHP   1. {main}() /var/www/luka/study-easy-swoole/easyswoole:0
+PHP   2. require() /var/www/luka/study-easy-swoole/easyswoole:2
+PHP   3. commandHandler() /var/www/luka/study-easy-swoole/vendor/easyswoole/easyswoole/bin/easyswoole:429
+PHP   4. serverStart() /var/www/luka/study-easy-swoole/vendor/easyswoole/easyswoole/bin/easyswoole:22
+PHP   5. EasySwoole\Core\Core->run() /var/www/luka/study-easy-swoole/vendor/easyswoole/easyswoole/bin/easyswoole:304
+PHP   6. EasySwoole\Core\Swoole\ServerManager->start() /var/www/luka/study-easy-swoole/vendor/easyswoole/easyswoole/src/Core/Core.php:45
+PHP   7. Swoole\Http\Server->start() /var/www/luka/study-easy-swoole/vendor/easyswoole/easyswoole/src/Core/Swoole/ServerManager.php:63
+
+Fatal error: Uncaught Error: Call to undefined method App\ExceptionHandler::writeJson() in /var/www/luka/study-easy-swoole/Application/ExceptionHandler.php on line 13
+
+Call Stack:
+    0.0004     349952   1. {main}() /var/www/luka/study-easy-swoole/easyswoole:0
+    0.0038     423600   2. require('/var/www/luka/study-easy-swoole/vendor/easyswoole/easyswoole/bin/easyswoole') /var/www/luka/study-easy-swoole/easyswoole:2
+    0.0257     545752   3. commandHandler() /var/www/luka/study-easy-swoole/vendor/easyswoole/easyswoole/bin/easyswoole:429
+    0.0269     546240   4. serverStart() /var/www/luka/study-easy-swoole/vendor/easyswoole/easyswoole/bin/easyswoole:22
+    0.0519     665064   5. EasySwoole\Core\Core->run() /var/www/luka/study-easy-swoole/vendor/easyswoole/easyswoole/bin/easyswoole:304
+    0.0519     665160   6. EasySwoole\Core\Swoole\ServerManager->start() /var/www/luka/study-easy-swoole/vendor/easyswoole/easyswoole/src/Core/Core.php:45
+    0.1304     987192   7. Swoole\Http\Server->start() /var/www/luka/study-easy-swoole/vendor/easyswoole/easyswoole/src/Core/Swoole/ServerManager.php:63
+
+Error: Call to undefined method App\ExceptionHandler::writeJson() in /var/www/luka/study-easy-swoole/Application/ExceptionHandler.php on line 13
+
+Call Stack:
+    0.0004     349952   1. {main}() /var/www/luka/study-easy-swoole/easyswoole:0
+    0.0038     423600   2. require('/var/www/luka/study-easy-swoole/vendor/easyswoole/easyswoole/bin/easyswoole') /var/www/luka/study-easy-swoole/easyswoole:2
+    0.0257     545752   3. commandHandler() /var/www/luka/study-easy-swoole/vendor/easyswoole/easyswoole/bin/easyswoole:429
+    0.0269     546240   4. serverStart() /var/www/luka/study-easy-swoole/vendor/easyswoole/easyswoole/bin/easyswoole:22
+    0.0519     665064   5. EasySwoole\Core\Core->run() /var/www/luka/study-easy-swoole/vendor/easyswoole/easyswoole/bin/easyswoole:304
+    0.0519     665160   6. EasySwoole\Core\Swoole\ServerManager->start() /var/www/luka/study-easy-swoole/vendor/easyswoole/easyswoole/src/Core/Core.php:45
+    0.1304     987192   7. Swoole\Http\Server->start() /var/www/luka/study-easy-swoole/vendor/easyswoole/easyswoole/src/Core/Swoole/ServerManager.php:63
+   72.0684    1255880   8. EasySwoole\Core\Swoole\ServerManager->EasySwoole\Core\Swoole\{closure}() /var/www/luka/study-easy-swoole/vendor/easyswoole/easyswoole/src/Core/Swoole/ServerManager.php:0
+   72.0684    1256256   9. call_user_func_array:{/var/www/luka/study-easy-swoole/vendor/easyswoole/easyswoole/src/Core/Swoole/ServerManager.php:149}() /var/www/luka/study-easy-swoole/vendor/easyswoole/easyswoole/src/Core/Swoole/ServerManager.php:149
+   72.0684    1256664  10. EasySwoole\Core\Swoole\EventRegister->EasySwoole\Core\Swoole\{closure}() /var/www/luka/study-easy-swoole/vendor/easyswoole/easyswoole/src/Core/Swoole/ServerManager.php:149
+   72.1144    1451512  11. App\ExceptionHandler->handle() /var/www/luka/study-easy-swoole/vendor/easyswoole/easyswoole/src/Core/Swoole/EventRegister.php:95
+
+file[/var/www/luka/study-easy-swoole/Application/ExceptionHandler.php] line[13] message:[Uncaught Error: Call to undefined method App\ExceptionHandler::writeJson() in /var/www/luka/study-easy-swoole/Application/ExceptionHandler.php:13
+Stack trace:
+#0 /var/www/luka/study-easy-swoole/vendor/easyswoole/easyswoole/src/Core/Swoole/EventRegister.php(95): App\ExceptionHandler->handle(Object(Error), Object(EasySwoole\Core\Http\Request), Object(EasySwoole\Core\Http\Response))
+#1 [internal function]: EasySwoole\Core\Swoole\EventRegister->EasySwoole\Core\Swoole\{closure}(Object(Swoole\Http\Request), Object(Swoole\Http\Response))
+#2 /var/www/luka/study-easy-swoole/vendor/easyswoole/easyswoole/src/Core/Swoole/ServerManager.php(149): call_user_func_array(Object(Closure), Array)
+#3 {main}
+  thrown]
+[2018-03-09 10:51:41 *26627.2]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught Error: Call to undefined method App\ExceptionHandler::writeJson() in /var/www/luka/study-easy-swoole/Application/ExceptionHandler.php:13
+Stack trace:
+#0 /var/www/luka/study-easy-swoole/vendor/easyswoole/easyswoole/src/Core/Swoole/EventRegister.php(95): App\ExceptionHandler->handle(Object(Error), Object(EasySwoole\Core\Http\Request), Object(EasySwoole\Core\Http\Response))
+#1 [internal function]: EasySwoole\Core\Swoole\EventRegister->EasySwoole\Core\Swo
+[2018-03-09 10:51:41 $26542.0]	WARNING	swManager_check_exit_status: worker#2 abnormal exit, status=255, signal=0
+[2018-03-09 10:54:43 $26542.0]	NOTICE	Server is reloading now.
+[2018-03-09 10:55:50 $26542.0]	NOTICE	Server is reloading now.
+[2018-03-09 10:56:08 $26542.0]	NOTICE	Server is reloading now.
+[2018-03-09 10:58:09 #26540.0]	NOTICE	Server is shutdown now.
+[2018-03-09 10:58:16 *26891.2]	ERROR	swFactoryProcess_finish (ERROR 1004): send 182 byte failed, because connection[fd=1] is closed.
+[2018-03-09 10:58:16 *26891.2]	ERROR	swFactoryProcess_finish (ERROR 1004): send 173 byte failed, because connection[fd=1] is closed.
+[2018-03-09 10:59:17 *26951.2]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught Error: Call to undefined method App\ExceptionHandler::writeJson() in /var/www/luka/study-easy-swoole/Application/ExceptionHandler.php:13
+Stack trace:
+#0 /var/www/luka/study-easy-swoole/vendor/easyswoole/easyswoole/src/Core/Swoole/EventRegister.php(95): App\ExceptionHandler->handle(Object(Error), Object(EasySwoole\Core\Http\Request), Object(EasySwoole\Core\Http\Response))
+#1 [internal function]: EasySwoole\Core\Swoole\EventRegister->EasySwoole\Core\Swo
+[2018-03-09 10:59:17 $26939.0]	WARNING	swManager_check_exit_status: worker#2 abnormal exit, status=255, signal=0
+[2018-03-09 11:52:17 *27499.2]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Declaration of App\HttpController\Index::onRequest($action) must be compatible with EasySwoole\Core\Http\AbstractInterface\Controller::onRequest($action): ?bool in /var/www/luka/study-easy-swoole/Application/HttpController/Index.php on line 13.
+[2018-03-09 11:52:17 $27487.0]	WARNING	swManager_check_exit_status: worker#2 abnormal exit, status=255, signal=0
+[2018-03-09 11:52:41 *27560.2]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Declaration of App\HttpController\Index::onRequest($action) must be compatible with EasySwoole\Core\Http\AbstractInterface\Controller::onRequest($action): ?bool in /var/www/luka/study-easy-swoole/Application/HttpController/Index.php on line 13.
+[2018-03-09 11:52:41 $27548.0]	WARNING	swManager_check_exit_status: worker#2 abnormal exit, status=255, signal=0
+[2018-03-09 11:52:52 *27567.2]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Declaration of App\HttpController\Index::onRequest($action) must be compatible with EasySwoole\Core\Http\AbstractInterface\Controller::onRequest($action): ?bool in /var/www/luka/study-easy-swoole/Application/HttpController/Index.php on line 13.
+[2018-03-09 11:52:52 $27548.0]	WARNING	swManager_check_exit_status: worker#2 abnormal exit, status=255, signal=0

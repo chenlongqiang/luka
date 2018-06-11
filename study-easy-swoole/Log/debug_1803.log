@@ -1,0 +1,17 @@
+18-03-09 10:51:41:file[/var/www/luka/study-easy-swoole/Application/ExceptionHandler.php] line[13] message:[Uncaught Error: Call to undefined method App\ExceptionHandler::writeJson() in /var/www/luka/study-easy-swoole/Application/ExceptionHandler.php:13
+Stack trace:
+#0 /var/www/luka/study-easy-swoole/vendor/easyswoole/easyswoole/src/Core/Swoole/EventRegister.php(95): App\ExceptionHandler->handle(Object(Error), Object(EasySwoole\Core\Http\Request), Object(EasySwoole\Core\Http\Response))
+#1 [internal function]: EasySwoole\Core\Swoole\EventRegister->EasySwoole\Core\Swoole\{closure}(Object(Swoole\Http\Request), Object(Swoole\Http\Response))
+#2 /var/www/luka/study-easy-swoole/vendor/easyswoole/easyswoole/src/Core/Swoole/ServerManager.php(149): call_user_func_array(Object(Closure), Array)
+#3 {main}
+  thrown]
+18-03-09 02:59:17:file[/var/www/luka/study-easy-swoole/Application/ExceptionHandler.php] line[13] message:[Uncaught Error: Call to undefined method App\ExceptionHandler::writeJson() in /var/www/luka/study-easy-swoole/Application/ExceptionHandler.php:13
+Stack trace:
+#0 /var/www/luka/study-easy-swoole/vendor/easyswoole/easyswoole/src/Core/Swoole/EventRegister.php(95): App\ExceptionHandler->handle(Object(Error), Object(EasySwoole\Core\Http\Request), Object(EasySwoole\Core\Http\Response))
+#1 [internal function]: EasySwoole\Core\Swoole\EventRegister->EasySwoole\Core\Swoole\{closure}(Object(Swoole\Http\Request), Object(Swoole\Http\Response))
+#2 /var/www/luka/study-easy-swoole/vendor/easyswoole/easyswoole/src/Core/Swoole/ServerManager.php(149): call_user_func_array(Object(Closure), Array)
+#3 {main}
+  thrown]
+18-03-09 11:52:17:file[/var/www/luka/study-easy-swoole/Application/HttpController/Index.php] line[13] message:[Declaration of App\HttpController\Index::onRequest($action) must be compatible with EasySwoole\Core\Http\AbstractInterface\Controller::onRequest($action): ?bool]
+18-03-09 11:52:41:file[/var/www/luka/study-easy-swoole/Application/HttpController/Index.php] line[13] message:[Declaration of App\HttpController\Index::onRequest($action) must be compatible with EasySwoole\Core\Http\AbstractInterface\Controller::onRequest($action): ?bool]
+18-03-09 11:52:52:file[/var/www/luka/study-easy-swoole/Application/HttpController/Index.php] line[13] message:[Declaration of App\HttpController\Index::onRequest($action) must be compatible with EasySwoole\Core\Http\AbstractInterface\Controller::onRequest($action): ?bool]
