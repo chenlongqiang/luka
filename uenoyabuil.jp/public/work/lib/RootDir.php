@@ -1,5 +1,6 @@
 <?php
-define( 'ROOT_DIR'	, '/var/www/vhost/uenoyabuil.jp/public/work/' );
+//define( 'ROOT_DIR'	, '/var/www/vhost/uenoyabuil.jp/public/work/' );
+define( 'ROOT_DIR'	, dirname(__DIR__).'/');
 
 set_include_path( get_include_path() . PATH_SEPARATOR . ROOT_DIR . 'lib'
 									 . PATH_SEPARATOR . ROOT_DIR . 'db'
