@@ -1,0 +1,13 @@
+{
+    "name": "chenlongqiang/study-sentry",
+    "authors": [
+        {
+            "name": "lukachen",
+            "email": "lukachen@fanli.com"
+        }
+    ],
+    "require": {
+        "sentry/sdk": "2.0.3",
+        "sentry/sentry-laravel": "1.1.0"
+    }
+}
